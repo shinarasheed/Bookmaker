@@ -1,0 +1,22 @@
+{
+  "name": "boomarkapp",
+  "version": "1.0.0",
+  "description": "a simple bookmars App",
+  "main": "app.js",
+  "scripts": {
+    "deploy": " gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasheedshina22/Boomaker-Application.git"
+  },
+  "author": "Shina Rasheed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rasheedshina22/Boomaker-Application/issues"
+  },
+  "homepage": "https://github.com/rasheedshina22/Boomaker-Application",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
