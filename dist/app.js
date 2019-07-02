@@ -79,7 +79,8 @@ function fetchBookmarks() {
     const bookmarksResult = document.getElementById('bookmarksResult');
     //build the output
     bookmarksResult.innerHTML = '';
-    Array.from(bookmarks).forEach(function (bookmark) { 
+    bookmarks.forEach(function (bookmark) { 
+        
         const name = bookmark.name;
         const url = bookmark.url
         bookmarksResult.innerHTML += 
